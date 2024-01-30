@@ -70,7 +70,7 @@ def pandas_highest_scores(dataframe):
 
 def pandas_highest_science_student(dataframe):
     # Find the student (Student ID) with the highest score in Science using Pandas
-    max_sci_student_id = dataframe['Science'].idxmax()
+    max_sci_student_id = dataframe.loc[dataframe['Science'].idxmax()]
     return max_sci_student_id
 
 def pandas_student_4_english_score(dataframe):
