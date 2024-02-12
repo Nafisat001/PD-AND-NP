@@ -89,7 +89,8 @@ def pandas_plot_math_distribution(dataframe):
     plt.show()
 
 # Uncomment the code part
-def main():  # call this function to execute the code
+# call this function to execute the code
+def main():  
     # Example usage for NumPy
     math_scores = np.array([78, 89, 92, 65, 87])
     english_scores = np.array([85, 90, 78, 88, 77])
